@@ -11,6 +11,6 @@ else
   lowest_value = name_arr[i++]
 end
   i++
-return name_hash[lowest_value]
+return lowest_value
 end
 end
