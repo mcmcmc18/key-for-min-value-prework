@@ -4,10 +4,11 @@
 def key_for_min_value(name_hash)
 i = NIL
 n = NIL
-name_hash.collect do |key, value|
-name_arr = []
-i = 0
-n = i + 1
+name_hash.each do |key, value|
+     if low == nil || low > value
+       low = value
+       low_name = key
+     end
 
 return lowest_value
 end
