@@ -6,8 +6,8 @@ i = NIL
 n = NIL
 name_hash.each do |key, value|
      if i == nil || i > value
-       low = value
-       low_name = key
+       i = value
+       n = key
      end
 
 return lowest_value
