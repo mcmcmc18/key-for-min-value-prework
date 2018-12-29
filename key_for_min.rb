@@ -9,13 +9,12 @@ if name_arr[i] < name_arr[i++]
 lowest_value = name_arr[i]
 else
   lowest_value = name_arr[i++]
+end
   i++
   
 name_hash.collect do |key, value|
   if lowest_value == value
-    return key
-    
-  
 end
+    return key
 end
 end
