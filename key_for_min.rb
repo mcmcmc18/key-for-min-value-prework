@@ -12,7 +12,7 @@ else
   i++
   
 name_hash.collect do |key, value|
-  if lowest_value = value
+  if lowest_value == value
     return key
     
   
