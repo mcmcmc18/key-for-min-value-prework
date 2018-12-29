@@ -9,7 +9,6 @@ if name_arr[i] < name_arr[i++]
 lowest_value = name_arr[i]
 else
   lowest_value = name_arr[i++]
-end
   i++
 return lowest_value
 end
