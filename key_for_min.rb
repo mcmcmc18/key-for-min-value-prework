@@ -11,10 +11,6 @@ else
   lowest_value = name_arr[i++]
 end
   i++
-  
-name_hash.collect do |key, value|
-  if lowest_value == value
-end
-    return key
+return name_hash[lowest_value]
 end
 end
