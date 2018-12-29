@@ -4,6 +4,7 @@
 def key_for_min_value(name_hash)
 name_hash.collect do |key, value|
 name_arr = []
+i = 0
 name_arr.push(value)
 if name_arr[i] < name_arr[i++]
 lowest_value = name_arr[i]
