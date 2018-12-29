@@ -9,7 +9,8 @@ name_hash.each do |key, value|
        i = value
        n = key
      end
+end
 
-return lowest_value
+return i
 end
 end
