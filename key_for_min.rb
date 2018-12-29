@@ -5,12 +5,13 @@ def key_for_min_value(name_hash)
 name_hash.collect do |key, value|
 name_arr = []
 i = 0
-name_arr.push(value)
-if name_arr[i] < name_arr[i++]
+n = i + 1
+if name_arr[i] < name_arr[n]
 lowest_value = name_arr[i]
 else
-  lowest_value = name_arr[i++]
+  lowest_value = name_arr[n]
   i++
+  n++
 return lowest_value
 end
 end
